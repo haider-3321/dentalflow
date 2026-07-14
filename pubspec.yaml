@@ -1,0 +1,74 @@
+name: dentalflow
+description: 'Production-ready Dental Clinic Management System with Flutter.'
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  get_storage: ^2.1.1
+  supabase_flutter: ^2.3.0
+  image_picker: ^1.0.4
+  intl: ^0.19.0
+  fl_chart: ^0.65.0
+  pdf: ^3.10.7
+  printing: ^5.11.0
+  table_calendar: ^3.0.9
+  shimmer: ^3.0.0
+  cached_network_image: ^3.3.0
+  connectivity_plus: ^5.0.0
+  permission_handler: ^11.4.3
+  http: ^1.1.0
+  fluttertoast: ^8.2.2
+  uuid: ^4.0.0
+  path_provider: ^2.1.0
+  animations: ^2.0.7
+  lottie: ^2.7.0
+  badges: ^3.1.1
+  timeago: ^3.6.0
+  intl_utils: ^2.8.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_linter: ^3.0.0
+  build_runner: ^2.4.6
+  json_serializable: ^6.7.0
+  json_annotation: ^4.8.1
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/images/
+    - assets/animations/
+    - assets/icons/
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Roboto-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Roboto-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Roboto-Bold.ttf
+          weight: 700
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Cairo-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Cairo-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Cairo-Bold.ttf
+          weight: 700
